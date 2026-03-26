@@ -1,29 +1,24 @@
 {
   "expo": {
-    "name": "reversi_final",
-    "slug": "reversi_final",
-    "version": "1.0.0",
-    "orientation": "portrait",
+    "name": "Reversi King",
+    "slug": "reversi_dapp",
+    "version": "1.0.3",
+    "owner": "millioner123",
+    "runtimeVersion": "1.0.4",
     "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
-    "splash": {
-      "image": "./assets/splash-icon.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
-    },
-    "ios": {
-      "supportsTablet": true
-    },
     "android": {
+      "package": "com.seekergamerlabs.reversiking",
+      "versionCode": 106,
       "adaptiveIcon": {
-        "backgroundColor": "#E6F4FE",
-        "foregroundImage": "./assets/android-icon-foreground.png",
-        "backgroundImage": "./assets/android-icon-background.png",
-        "monochromeImage": "./assets/android-icon-monochrome.png"
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#000000"
       }
     },
-    "web": {
-      "favicon": "./assets/favicon.png"
-    }
+    "extra": {
+      "eas": {
+        "projectId": "b81564a8-7bde-4fd0-8996-dc65074c5a42"
+      }
+    },
+    "plugins": []
   }
 }
