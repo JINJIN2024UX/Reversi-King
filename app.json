@@ -2,15 +2,15 @@
   "expo": {
     "name": "Reversi King",
     "slug": "reversi_dapp",
-    "version": "1.0.3",
+    "version": "1.0.5",
     "owner": "millioner123",
-    "runtimeVersion": "1.0.4",
-    "icon": "./assets/icon.png",
+    "runtimeVersion": "1.0.5",
+    "icon": "./assets/adaptive-icon.png",
     "android": {
       "package": "com.seekergamerlabs.reversiking",
-      "versionCode": 106,
+      "versionCode": 107,
       "adaptiveIcon": {
-        "foregroundImage": "./assets/icon.png",
+        "foregroundImage": "./assets/android-icon-foreground.png",
         "backgroundColor": "#000000"
       }
     },
